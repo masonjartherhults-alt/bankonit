@@ -72,4 +72,12 @@ public class Customer extends User{
             + "\nChecking: " + checking.getBalanceString()
             + "\nSavings: " + savings.getBalanceString();
     }
+    
+    public CheckingAccount getChecking(){
+	return checking;
+    }
+
+    public SavingsAccount getSavings(){
+	return savings;
+    }
 }
